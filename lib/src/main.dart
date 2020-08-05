@@ -307,7 +307,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
           color = widget.theme?.operatorColor ?? Theme.of(context).primaryColor;
           style = widget.theme?.operatorStyle ??
               _baseStyle.copyWith(
-                  color: Theme.of(context).primaryTextTheme.title.color);
+                  color: Theme.of(context).primaryTextTheme.headline6.color);
         }
         if (title == _calc.numberFormat.symbols.PERCENT ||
             title == "⌫" ||
